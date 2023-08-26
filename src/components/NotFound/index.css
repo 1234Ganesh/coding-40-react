@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.content-con {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .content-con {
+    align-items: flex-start;
+    margin-top: 60px;
+  }
+}
+.res-con {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1110px;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .res-con {
+    margin-top: 60px;
+    max-width: 458px;
+  }
+}
+.heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 32px;
+  margin: 0px;
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.22;
+  }
+}
+
+.not-con {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.img {
+  width: 328px;
+}
+@media screen and (max-width: 768px) {
+  .img {
+    width: 475px;
+  }
+}
+.des {
+  color: #64748b;
+  font-family: 'Roboto';
+  margin-top: 16px;
+  line-height: 1.75;
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .des {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 4px;
+    width: 241px;
+    line-height: 1.33;
+  }
+}
